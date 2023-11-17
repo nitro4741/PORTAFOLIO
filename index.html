@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"> <!--  define el conjunto de caracteres  utilizados -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--Indica que esta metaetiqueta es equivalente a un encabezado HTTP y se utiliza para proporcionar instrucciones especiales al navegador-->
+    <!-- compatibilidad con un determinado navegador-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera web</title>
+    <style>
+         body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #34495e; 
+            color: #ecf0f1; 
+            }
+ 
+        header {
+            background-color: #e74c3c; 
+            text-align: center;
+            padding: 20px;
+            }
+ 
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        h1 {
+            color: rgb(60, 29, 215);
+            font-size: 3em;
+            margin: 0;
+        }
+
+        nav {
+            background-color: #3498db;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+        main {
+            padding: 20px;
+        }
+        
+        section {
+            background-color: #2ecc71;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        section h2 {
+            color: #ffffff;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        section p {
+            font-size: 1.2em;
+            line-height: 1.5;
+            color: #ffffff;
+        }
+
+        section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+
+        section ol, 
+        section ul {
+            font-size: 1.2em;
+            color: #ffffff;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body><!-- Contenido principal de la pagina -->
+
+
+    <header><!-- Encabezado de la pagina (Logotipo, menu, etc.) -->
+        <h1>Dragon Ball</h1>
+    </header>
+
+        <nav><!-- Menu de navegacion -->
+            <ul>
+                <li><a href="#saga1">Saga Sayajin</a></li>
+                <li><a href="#saga2">Saga de Freezer</a></li>
+                <li><a href="#saga3">Saga de Cell</a></li>
+                <li><a href="#saga4">Saga de Majin Buu</a></li>
+            </ul>
+        </nav>
+        <main>
+            <!-- Contenido principal de la pagina -->
+            <!-- Otros elementos, como imagenes, listas, enlaces, etc. -->
+            <section id="saga1">
+                <h2>Saga Sayajin</h2>
+                <p>El cielo resplandece a mi alrededor (alrededor), al volar destellos brillan en las nubes sin fin, con libertad puedes cruzar hoy el cielo ...</p>
+                <p>Episodios notables:</p>
+                    <ol>
+                        <li>La llegada de Raditz</li>
+                        <li>Goku entrena con Kaio-Sama</li>
+                        <li>La batalla en la Tierra contra los Saiyan</li>
+                    </ol>
+                <img src="./img/sayayins.png" alt="goku vsvegetta">
+            </section>
+
+            <section id="saga2">
+                <h2>Saga de Freezer</h2>
+                <p>El cielo resplandece a mi alrededor (alrededor), al volar destellos brillan en las nubes sin fin, con libertad puedes cruzar hoy el cielo ...</p>
+                <p>Episodios notables:</p>
+                <ol>
+                    <li>¡Un nuevo enemigo! El emperador del universo Freezer</li>
+                    <li>El legendario Super Saiyajin, Gokú</li>
+                    <li>Muere un orgulloso Saiyajin: Vegeta</li>
+                    <li>Finalmente Gokū se convierte en el Legendario Super Saiyajin</li>
+                </ol>
+                <img src="./img/freezer.png" alt="goku vs freezer">
+            </section>
+
+            <section id="saga3">
+                
+                <h2>Saga de Cell</h2>
+                <p>El cielo resplandece a mi alrededor (alrededor), al volar destellos brillan en las nubes sin fin, con libertad puedes cruzar hoy el cielo ...</p>
+                 <p>Episodios notables:</p>
+                    <ol>
+                        <li>Los terribles androides número 19 y 20</li>
+                        <li>El androide Cell</li>
+                        <li>El torneo de Cell comienza</li>
+                        <li>Un mensaje para Gohan</li>
+                    </ol>
+                <img src="./img/cell.jpg" alt="goku vs cell">
+            </section>
+
+            <section id="saga4">
+                <h2>Saga de Majin Buu</h2>
+                <p>El cielo resplandece a mi alrededor (alrededor), al volar destellos brillan en las nubes sin fin, con libertad puedes cruzar hoy el cielo ...</p>
+                 <p>Episodios notables:</p>
+                    <ol>
+                        <li>Gohan es el Gran Saiyaman</li>
+                        <li>El malvado mago Babidi</li>
+                        <li>Buu aparece</li>
+                        <li>La legendaria Espada Z</li>
+                        <li>Goku es el hombre más fuerte del universo</li>
+                    </ol>
+                <img src="./img/majin buu.png" alt="goku vs majin buu">
+            </section>
+
+
+        </main>
+        <aside>
+            <!-- Contenido adicional o complementario (barra lateral, widgets, etc.) -->
+        </aside>
+        <footer>
+            &copy; 2023 Dragon Ball Fan Club
+        </footer>
+
+</body>
+</html>

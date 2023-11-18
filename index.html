@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8"> <!--  define el conjunto de caracteres  utilizados -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--Indica que esta metaetiqueta es equivalente a un encabezado HTTP y se utiliza para proporcionar instrucciones especiales al navegador-->
+    <link rel="stylesheet" href="style.css">
     <!-- compatibilidad con un determinado navegador-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primera web</title>
-    <style>
+    <!-- <style>
          body {
             font-family: 'Arial', sans-serif;
             margin: 0;
@@ -35,6 +36,7 @@
         nav {
             background-color: #3498db;
             padding: 10px;
+            box-shadow: inset 0px 5px 5px rgb(160, 193, 243);
         }
 
         nav ul {
@@ -101,7 +103,7 @@
             width: 100%;
         }
 
-    </style>
+    </style> -->
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -109,7 +111,7 @@
 
 
     <header><!-- Encabezado de la pagina (Logotipo, menu, etc.) -->
-        <h1>Dragon Ball</h1>
+        <h1 class="main-heading">Dragon Ball</h1>
     </header>
 
         <nav><!-- Menu de navegacion -->
@@ -123,7 +125,7 @@
         <main>
             <!-- Contenido principal de la pagina -->
             <!-- Otros elementos, como imagenes, listas, enlaces, etc. -->
-            <section id="saga1">
+            <section id="saga1" class="saga-section">
                 <h2>Saga Sayajin</h2>
                 <p>El cielo resplandece a mi alrededor (alrededor), al volar destellos brillan en las nubes sin fin, con libertad puedes cruzar hoy el cielo ...</p>
                 <p>Episodios notables:</p>
@@ -135,7 +137,7 @@
                 <img src="./img/sayayins.png" alt="goku vsvegetta">
             </section>
 
-            <section id="saga2">
+            <section id="saga2" class="saga-section">
                 <h2>Saga de Freezer</h2>
                 <p>El cielo resplandece a mi alrededor (alrededor), al volar destellos brillan en las nubes sin fin, con libertad puedes cruzar hoy el cielo ...</p>
                 <p>Episodios notables:</p>
@@ -148,7 +150,7 @@
                 <img src="./img/freezer.png" alt="goku vs freezer">
             </section>
 
-            <section id="saga3">
+            <section id="saga3" class="saga-section">
                 
                 <h2>Saga de Cell</h2>
                 <p>El cielo resplandece a mi alrededor (alrededor), al volar destellos brillan en las nubes sin fin, con libertad puedes cruzar hoy el cielo ...</p>
@@ -162,7 +164,7 @@
                 <img src="./img/cell.jpg" alt="goku vs cell">
             </section>
 
-            <section id="saga4">
+            <section id="saga4" class="saga-section">
                 <h2>Saga de Majin Buu</h2>
                 <p>El cielo resplandece a mi alrededor (alrededor), al volar destellos brillan en las nubes sin fin, con libertad puedes cruzar hoy el cielo ...</p>
                  <p>Episodios notables:</p>

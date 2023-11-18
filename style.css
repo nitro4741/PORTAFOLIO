@@ -16,6 +16,8 @@ header {
 nav {
     background-color: #3498db;
     padding: 10px;
+    box-shadow: inset 0px 5px 5px #83c3ed;
+    box-shadow: 2px 5px 5px rgb(22, 69, 113);
 }
 
 
@@ -43,7 +45,7 @@ nav ul li a {
 
 
 nav ul li a:hover {
-    color: #2c3e50;
+    color: #0b64bd;
     /* Cambio de color al pasar el ratón */
 }
 
@@ -94,6 +96,50 @@ main {
     transform: scale(1.05);
     /* Efecto de escala al pasar el ratón */
 }
+
+
+#saga1 {
+    background-color: #2ecc71;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+ 
+#saga1 .section-heading {
+    color: #ffffff;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+ 
+#saga1 p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #ffffff;
+}
+ 
+#imgSaiyajin {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+    transition: transform 0.3s ease;
+}
+ 
+#imgSaiyajin:hover {
+    transform: scale(1.1);
+}
+ 
+#main-footer {
+    background-color: #333;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 
 footer {
     background-color: #333;

@@ -56,7 +56,7 @@ main {
 
 
 .main-heading {
-    color: white;
+    color: rgb(101, 47, 47);
     font-size: 6em;
     margin: 0;
 }
@@ -105,19 +105,19 @@ main {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
- 
+
 #saga1 .section-heading {
     color: #ffffff;
     font-size: 2em;
     margin-bottom: 10px;
 }
- 
+
 #saga1 p {
     font-size: 1.2em;
     line-height: 1.5;
     color: #ffffff;
 }
- 
+
 #imgSaiyajin {
     max-width: 100%;
     height: auto;
@@ -125,11 +125,11 @@ main {
     margin-top: 10px;
     transition: transform 0.3s ease;
 }
- 
+
 #imgSaiyajin:hover {
     transform: scale(1.1);
 }
- 
+
 #main-footer {
     background-color: #333;
     color: #ecf0f1;
@@ -149,4 +149,64 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+
+@media screen and (max-width: 600px) {
+    
+
+    body {
+        background-color: #d9d9d9;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    .saga-section img {
+        max-width: 100%;
+        color: #33633e;
+        box-shadow: 5px 5px 5px #2c8c54;
+        border-radius: 10px 0px 10px 0px;
+        
+    }
+
+    .saga-section h2 {
+        box-shadow: 5px 5px 5px #94b9a4;
+        background-color: rgb(63, 205, 125);
+        border-radius: 10px 0px 10px 0px;
+    }
+
+    footer {
+        position: static;
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+
+    body {
+        background-color: #d7751e;
+        
+    }
+
+    .saga-section h2 {
+        color: #33633e;
+        box-shadow: 5px 5px 5px #2c8c54;
+        border-radius: 10px 0px 10px 0px;
+    }
+    /* Estilos para pantallas medianas */
+}
+
+@media screen and (min-width: 1025px) {
+
+    body {
+        background-color: #2f70ae;
+    }
+    /* Estilos para pantallas grandes */
+
 }
